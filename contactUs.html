@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <title>Multiple-pages-website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <i class="fa fa-bars" onclick="barOPen()"></i>
+      
+        <nav id="barMenu">
+            <i class="fa fa-times" onclick="BarClose()"></i>
+            
+            <a href="index.html"><img src="images/logo.png" alt="" id="logo"></a>
+            
+            <div class="nav-links">
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+                
+            </div>
+           
+            
+        </nav>
+            <h1>Home <i class="fa fa-angle-right"></i> Contact Us</h1>
+    </section>
+    <!--+++++++++ for Contact Us centent +++++++++++++++++ -->
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31107.926089370805!2d77.619144!3d12.940417900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1624464500301!5m2!1sen!2sin"
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   </section>
+    <section class="contact_us">
+        <div class="row">
+            <div class="contact_col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Bangalore, Karnataka</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i> 
+                    <span>
+                        <h5>+91-9999999999</h5>
+                        <p>monday To Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i> 
+                    <span>
+                        <h5>Tribhuvanuniversity@gmail.com</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>                
+            <div class="contact_col">
+                <form action="contactMessage.php" method="POST">
+                    <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required>
+                    <input type="email" name="email" id="email" placeholder="Enter Your E-mail" required>
+                    <input type="text" name="subject" id="subject" placeholder="Enter Your Subject" required>
+                    <textarea name="message" id="message"  rows="8" placeholder="Leave a message"></textarea>
+                    <button type="submit" class="sendMessage" >Send Message</button>
+                </form>
+            </div>                
+
+           
+        </div>
+    </section>
+   
+   
+<!-- ==========For Footer ===============  -->
+<section class="footer">
+    <div class="footerRow">
+        <div class="footer_col">
+            <h3>About Us</h3>
+            <div class="menuList">
+                <a href=""><i class="fa fa-chevron-right"> Blog</i></a>
+                <a href=""><i class="fa fa-chevron-right"> Services</i></a>
+                <a href=""><i class="fa fa-chevron-right"> Courses</i></a>
+                <a href=""><i class="fa fa-chevron-right"> Contact Us</i></a>
+            </div>
+        </div>
+            <div class="footer_col">
+                <h3>Learning</h3>
+                <div class="menuList">
+                    <a href=""><i class="fa fa-chevron-right"> HTML</i></a>
+                    <a href=""><i class="fa fa-chevron-right"> CSS</i></a>
+                    <a href=""><i class="fa fa-chevron-right"> JavaScript</i></a>
+                    <a href=""><i class="fa fa-chevron-right"> PHP</i></a>
+                    <a href=""><i class="fa fa-chevron-right"> Some others</i></a>
+                </div>
+        </div>
+        <div class="footer_col">
+            <h3>Useful Tricks</h3>
+            <div class="menuList">
+                <a href=""><i class="fa fa-chevron-right"> Contact Us</i></a>
+                <a href=""><i class="fa fa-chevron-right"> FAQS</i></a>
+                <a href=""><i class="fa fa-chevron-right"> Privacy Policy</i></a>
+                <a href=""><i class="fa fa-chevron-right"> Terms ansd COnditions</i></a>
+            </div>
+        </div>
+        <div class="footer_col">
+            <h3>Get In Touch</h3>
+            <div class="menuList">
+                <a href=""><i class="fa fa-phone"> +91-90000000000</i></a>
+                <a href=""><i class="fa fa-envelope-open-o"> example@gmail.com</i></a>
+                <a href=""><i class="fa fa-home"> XYZ Road, ABC Building Bangalore, Karnataka</i></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <hr>
+    <div class="BelowFooter">
+     <h3>GROW WITH CONFIDENCE</h3>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus earum, quisquam magni sint, 
+         laborum nemo rem sapiente, magnam pariatur quam quos assumenda recusandae 
+         <br>impedit minus in! Quae quos necessitatibus repellendus?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With<i class="fa fa-heart-o"></i>by Sharma</p>
+    </div>
+</section>
+
+
+
+
+
+    <script src="js/resjs.js"></script>
+</body>
+</html>
